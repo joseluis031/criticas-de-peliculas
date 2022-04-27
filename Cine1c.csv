@@ -1,7 +1,7 @@
-Opinion(Xi);Cantidad de votantes(Ni);;Productos(Ni*Xi);Ni* ((Xi-media)^2);;;;;;;;;;;;;;;;
-5;40;200;246
-4;99;396;217
-3;145;435;33
-2;133;266;35
-1;96;96;221
-0;40;0;253
+Opinion(Xi),Cantidad de votantes(Ni),Productos(Ni*Xi),Ni* ((Xi-media)^2)
+5,40,200,246
+4,99,396,217
+3,145,435,33
+2,133,266,35
+1,96,96,221
+0,40,0,253
