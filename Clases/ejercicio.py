@@ -46,9 +46,3 @@ class Ejercicio:
         return print("El porcentaje es {}%".format(suma_intervalo/self.N))
 
 
-ejercicio = Ejercicio("Cine1c.csv")
-print("La media es: " ,ejercicio.calculo_media())
-print("La desviacion tipica es: " ,ejercicio.calculo_desvi())
-ejercicio.calculo_porcino_68()
-ejercicio.calculo_porcino_95()
-ejercicio.calculo_porcino_99_7()
