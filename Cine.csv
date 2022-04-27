@@ -1,4 +1,4 @@
-﻿Opinion(Xi);Cantidad de votantes(Ni);;Productos(Ni*Xi);Ni* ((Xi-media)^2);;;Suma productos;1393;;Cant.observaciones;6;;Moda;40
+Opinion(Xi);Cantidad de votantes(Ni);;Productos(Ni*Xi);Ni* ((Xi-media)^2);;;Suma productos;1393;;Cant.observaciones;6;;Moda;40
 5;40;;200;246,2169524;;;Suma frecuencias;553;;Minimo;0;;Cuartil1;1,25
 4;99;;396;217,1464509;;;Media;2,518987342;;Maximo;5;;Cuartil2;2,5
 3;145;;435;33,54911072;;;Varianza;1,822876371;;Rango;0;;Cuartil3;3,75
