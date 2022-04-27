@@ -1,18 +1,10 @@
-from collections import Counter
-from math import *
 import matplotlib.pyplot as plt
-import csv
+import pandas as pd
+
 class ejercicio:
     def __init__(self,datos):
-        self.datos = datos
+        self.datos = pd.read_csv(datos)
         
     def calculo_media(self):
-        with open('cine1c.csv') as self.File:
-            reader = csv.reader(self.File, delimiter=';')
-            next(reader, None)
-            lista = []
-            for i in reader:
-                cantidad_votos = i[1]
-                self.lista.append(i)
-                print(f"{cantidad_votos}")
-                
+        suma = self.datos["Productos(Ni*Xi)"].sum()
+        N = self.datos["Cantidad de votantes(Ni)"].sum()
