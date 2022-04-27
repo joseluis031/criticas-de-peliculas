@@ -7,7 +7,7 @@ class ejercicio:
         self.datos = datos
         
     def calculo_media(self):
-        with open('cine.csv') as self.File:
+        with open('cine1c.csv') as self.File:
             reader = csv.reader(self.File, delimiter=';')
             next(reader, None)
             lista = []
